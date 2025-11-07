@@ -1,0 +1,160 @@
+[{
+  "_id": {
+    "$oid": "690ca08578c49f4f52748a61"
+  },
+  "product_name": "Wireless Mouse",
+  "product_price": 599,
+  "product_description": "Ergonomic wireless mouse with USB receiver."
+},
+{
+  "_id": {
+    "$oid": "690ca08578c49f4f52748a62"
+  },
+  "product_name": "Laptop Stand",
+  "product_price": 899,
+  "product_description": "Adjustable aluminum laptop stand."
+},
+{
+  "_id": {
+    "$oid": "690ca08578c49f4f52748a63"
+  },
+  "product_name": "Bluetooth Speaker",
+  "product_price": 1299,
+  "product_description": "Portable speaker with deep bass."
+},
+{
+  "_id": {
+    "$oid": "690ca08578c49f4f52748a64"
+  },
+  "product_name": "USB Type-C Cable",
+  "product_price": 199,
+  "product_description": "Fast-charging 1.2m cable."
+},
+{
+  "_id": {
+    "$oid": "690ca08578c49f4f52748a65"
+  },
+  "product_name": "Keyboard",
+  "product_price": 499,
+  "product_description": "Slim wireless keyboard."
+},
+{
+  "_id": {
+    "$oid": "690ca08578c49f4f52748a66"
+  },
+  "product_name": "Desk Lamp",
+  "product_price": 699,
+  "product_description": "LED desk lamp with adjustable brightness."
+},
+{
+  "_id": {
+    "$oid": "690ca08578c49f4f52748a67"
+  },
+  "product_name": "Gaming Headset",
+  "product_price": 1499,
+  "product_description": "Surround sound headset with mic."
+},
+{
+  "_id": {
+    "$oid": "690ca08578c49f4f52748a68"
+  },
+  "product_name": "External Hard Drive",
+  "product_price": 4599,
+  "product_description": "1TB portable external HDD."
+},
+{
+  "_id": {
+    "$oid": "690ca08578c49f4f52748a69"
+  },
+  "product_name": "Mouse Pad",
+  "product_price": 99,
+  "product_description": "Soft and smooth gaming mouse pad."
+},
+{
+  "_id": {
+    "$oid": "690ca08578c49f4f52748a6a"
+  },
+  "product_name": "Smart Watch",
+  "product_price": 2499,
+  "product_description": "Fitness tracker with heart rate monitor."
+},
+{
+  "_id": {
+    "$oid": "690ca20f78c49f4f52748a6b"
+  },
+  "product_name": "Wireless Mouse",
+  "product_price": 599,
+  "product_description": "Ergonomic wireless mouse with USB receiver."
+},
+{
+  "_id": {
+    "$oid": "690ca20f78c49f4f52748a6c"
+  },
+  "product_name": "Laptop Stand",
+  "product_price": 899,
+  "product_description": "Adjustable aluminum laptop stand."
+},
+{
+  "_id": {
+    "$oid": "690ca20f78c49f4f52748a6d"
+  },
+  "product_name": "Bluetooth Speaker",
+  "product_price": 1299,
+  "product_description": "Portable speaker with deep bass."
+},
+{
+  "_id": {
+    "$oid": "690ca20f78c49f4f52748a6e"
+  },
+  "product_name": "USB Type-C Cable",
+  "product_price": 199,
+  "product_description": "Fast-charging 1.2m cable."
+},
+{
+  "_id": {
+    "$oid": "690ca20f78c49f4f52748a6f"
+  },
+  "product_name": "Keyboard",
+  "product_price": 499,
+  "product_description": "Slim wireless keyboard."
+},
+{
+  "_id": {
+    "$oid": "690ca20f78c49f4f52748a70"
+  },
+  "product_name": "Desk Lamp",
+  "product_price": 699,
+  "product_description": "LED desk lamp with adjustable brightness."
+},
+{
+  "_id": {
+    "$oid": "690ca20f78c49f4f52748a71"
+  },
+  "product_name": "Gaming Headset",
+  "product_price": 1499,
+  "product_description": "Surround sound headset with mic."
+},
+{
+  "_id": {
+    "$oid": "690ca20f78c49f4f52748a72"
+  },
+  "product_name": "External Hard Drive",
+  "product_price": 4599,
+  "product_description": "1TB portable external HDD."
+},
+{
+  "_id": {
+    "$oid": "690ca20f78c49f4f52748a73"
+  },
+  "product_name": "Mouse Pad",
+  "product_price": 99,
+  "product_description": "Soft and smooth gaming mouse pad."
+},
+{
+  "_id": {
+    "$oid": "690ca20f78c49f4f52748a74"
+  },
+  "product_name": "Smart Watch",
+  "product_price": 2499,
+  "product_description": "Fitness tracker with heart rate monitor."
+}]
