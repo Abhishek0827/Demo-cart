@@ -1,0 +1,316 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+  font-family: sans-serif;
+  color: black;
+}
+button {
+  cursor: pointer;
+}
+/* #root{
+    background-color: #e6e6e6;
+} */
+main {
+  margin: auto;
+  width: 85%;
+}
+.productGrid {
+  padding: 30px 0px;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  gap: 20px;
+  justify-content: center;
+}
+.productCard {
+  /* border: 1px solid; */
+  width: calc(100% - 20px);
+  box-shadow: 0px 0px 10px 5px rgba(156, 156, 156, 0.138);
+  height: 320px;
+  padding: 10px;
+  border-radius: 20px;
+}
+.productCard img {
+  /* border: 1px solid; */
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+}
+.productText {
+  display: grid;
+  gap: 5px;
+}
+.productText h4 {
+  font-size: 18px;
+  font-weight: 500;
+}
+.productText h6 {
+  font-size: 15px;
+  font-weight: 500;
+}
+.productText p {
+  font-size: 12px;
+}
+
+.productCard > div:last-child {
+  padding: 10px;
+  display: flex;
+  justify-content: end;
+}
+.productCard > div:last-child button {
+  padding: 5px;
+  font-size: 15px;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 2px solid #04b4ff;
+  color: #04b4ff;
+  cursor: pointer;
+}
+
+.cartPage {
+  padding: 30px 0px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.cartSection {
+  width: 60%;
+  height: fit-content;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: white;
+  box-shadow: 0px 0px 5px 1px rgba(179, 178, 178, 0.345);
+}
+.cartSection > h1 {
+  text-align: center;
+  margin: 20px 0px;
+  font-weight: 400;
+}
+.cartCard {
+  border-bottom: 1px solid rgba(93, 93, 93, 0.121);
+  padding: 10px;
+  width: calc(100% - 20px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+.cartCard > div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.cartCard img {
+  height: 70px;
+  width: 100px;
+}
+.cartCard .text {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+}
+.cartCard .text h5 {
+  font-size: 18px;
+  font-weight: 500;
+}
+.cartCard .text h6 {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.total {
+  display: flex;
+  flex-direction: column;
+}
+.total > h6 {
+  font-size: 16px;
+  font-weight: 500;
+}
+.total > p {
+  font-size: 14px;
+}
+
+.qualtity {
+  border: 1px solid rgba(0, 0, 0, 0.133);
+  height: 25px;
+  width: 70px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+}
+.qualtity > button,
+.qualtity > p {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+}
+.qualtity > button {
+  border: none;
+}
+
+.cartCard > div:last-child button {
+  background-color: transparent;
+  border: none;
+}
+
+.checkOut {
+  width: 30%;
+  background-color: #04b4ff;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  height: 300px;
+}
+
+/* .checkOut > form input {
+  outline: none;
+  border: none;
+  width: calc(100% - 10px);
+  border-radius: 10px;
+  height: 25px;
+  padding: 5px;
+  margin-top: 10px;
+} */
+
+.checkOut p {
+  color: white;
+
+  display: grid;
+  gap: 5px;
+  place-items: center;
+}
+.checkOut p span {
+  font-size: 30px;
+  color: white;
+}
+.checkOut button {
+  margin: 0px auto;
+  width: 150px;
+  border: 1px solid;
+  border-radius: 10px;
+  height: 40px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  color: white;
+}
+.checkOut button:hover {
+  background-color: white;
+  color: #04b4ff;
+}
+
+/* ////////checkOut////////////// */
+#checkOut {
+  margin: 40px auto;
+  padding: 20px;
+  width: 50%;
+  height: fit-content;
+  border-radius: 20px;
+  background-color: #04b4ff;
+}
+
+#checkOut > form {
+  display: grid;
+  gap: 20px;
+}
+#checkOut > form input {
+  outline: none;
+  border: none;
+  width: calc(100% - 10px);
+  border-radius: 10px;
+  height: 25px;
+  padding: 5px;
+  margin-top: 10px;
+}
+#checkOut > form p {
+  color: white;
+  font-size: 18px;
+}
+#checkOut > form p span {
+  color: white;
+}
+#checkOut > form button {
+  padding: 10px;
+  width: fit-content;
+  margin: auto;
+  font-size: 20px;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+}
+#checkOut button:hover {
+  background-color: white;
+  color: #04b4ff;
+}
+#checkOut form .desc {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  height: fit-content;
+  max-height: 200px;
+}
+#checkOut form .desc .info {
+  display: flex;
+  justify-content: space-between;
+}
+#checkOut form .desc .info div h5,
+#checkOut form .desc .info div h6 {
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
+}
+#checkOut form .desc .info p {
+  display: grid;
+  place-items: center;
+  font-size: 15px;
+}
+#checkOut form p {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 500px) {
+  main {
+    width: 95%;
+  }
+  .productGrid {
+    width: 100%;
+    grid-template-columns: auto auto;
+  }
+  .cartPage {
+    flex-direction: column-reverse;
+    gap: 20px;
+    width: 100%;
+  }
+  .cartSection {
+    width: 100%;
+  }
+.cartSection > h1 {
+  font-size: 20px;
+}
+  .cartCard {
+    width: 100%;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .cartCard > div {
+    width: 100%;
+  }
+  .checkOut {
+    width: calc(100% - 40px);
+  }
+  #checkOut{
+    width: calc(100% - 40px);
+  }
+}
