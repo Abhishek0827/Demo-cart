@@ -2,8 +2,9 @@ Mock E-Commerce Cart Application
 This project is built as part of the Vibe Commerce Internship Screening Assignment.
 It demonstrates full-stack e-commerce fundamentals including product listing, cart management, checkout flow, REST API integration, and basic state handling.
 
-Tech Stack
-Frontend
+<h2>Tech Stack</h2>
+
+Frontend : 
 Built using Vite + React
 | Package               | Purpose                         |
 | --------------------- | ------------------------------- |
@@ -15,7 +16,7 @@ Built using Vite + React
 | `vite`                | Development environment         |
 | `eslint`              | Code linting                    |
 
-Backend
+Backend : 
 Built with Express + MongoDB
 | Package                | Purpose                        |
 | ---------------------- | ------------------------------ |
@@ -24,36 +25,43 @@ Built with Express + MongoDB
 | `cors`                 | Cross-origin support           |
 | `nodemon` *(dev only)* | Auto-reload during development |
 
-/project-root
- ├── /frontend     → React UI
+/project-root</br>
+ ├── /frontend     → React UI</br>
  └── /backend      → Express server + MongoDB
 
-Features
-Frontend
-Product grid with Add to Cart
-Cart page with:
-   Quantity update 
-   Remove item
-   Automatic total price calculation
-Checkout form (Name & Email)
-Receipt/summary after checkout
+<h2>Features</h2>
+
+<b>Frontend</b>
+<p>
+Product grid with Add to Cart</br>
+Cart page with:</br>
+<ul>
+ <li> Quantity update </li>
+ <li>Remove item</li>
+ <li>Automatic total price calculation</li>
+ 
+</ul>
+Checkout form (Name & Email)</br>
+Receipt/summary after checkout</br>
 Fully responsive layout
+</p>
 
-Backend
-REST API for products, cart, and checkout
-Mock products stored in DB / in-memory
+<b>Backend</b>
+<p>REST API for products, cart, and checkout</br>
+Mock products stored in DB / in-memory</br>
 Returns checkout receipt with timestamp
+</p>
 
-Backend Setup
-cd backend
-npm install
-node index.js
+Backend Setup</br>
+cd backend</br>
+npm install</br>
+node index.js</br>
 
-Frontend Setup
-cd ../frontend
-npm install
-npm run dev
+Frontend Setup</br>
+cd ../frontend</br>
+npm install</br>
+npm run dev</br>
 
-Author:
-Abhishek Kuliyal
+<h1>Author : 
+Abhishek Kuliyal </h1>
 
